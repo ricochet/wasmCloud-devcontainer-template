@@ -1,0 +1,22 @@
+{
+	"name": "wasmCloud-rust",
+	"image": "mcr.microsoft.com/devcontainers/rust"
+
+	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
+	"features": {
+		"ghcr.io/ricochet/wasmCloud-devcontainer-feature/cosmonic": {},
+		"ghcr.io/ricochet/wasmCloud-devcontainer-feature/wasmcloud": {},
+		"ghcr.io/ricochet/wasmCloud-devcontainer-feature/nats-server": {},
+		"ghcr.io/ricochet/wasmCloud-devcontainer-feature/rust-wasm": {},
+		"ghcr.io/ricochet/wasmCloud-devcontainer-feature/wasi-sdk": {}
+	}
+
+	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// 👇 Configure tool-specific properties.
+	// "customizations": {},
+
+	// 👇 Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}

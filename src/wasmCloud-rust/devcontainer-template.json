@@ -1,0 +1,13 @@
+{
+    "id": "wasmCloud-rust",
+    "version": "1.0.0",
+    "name": "wasmCloud rust",
+    "description": "Develop Rust apps with wasmCloud",
+    "documentationURL": "https://github.com/devcontainers/template-starter/tree/main/src/wasmCloud",
+    "licenseURL": "https://github.com/devcontainers/template-starter/blob/main/LICENSE",
+    "options": {
+    },
+    "platforms": [
+        "Rust"
+    ]
+}
